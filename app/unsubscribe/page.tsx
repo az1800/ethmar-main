@@ -84,7 +84,7 @@ const UnsubscribeContent = () => {
       y: 0,
       transition: {
         duration: 0.5,
-        ease: "easeOut",
+        ease: "easeOut" as const,
       },
     },
     exit: {
@@ -200,7 +200,7 @@ const UnsubscribeContent = () => {
                 transition={{
                   duration: 1.5,
                   repeat: Infinity,
-                  ease: "linear",
+                  ease: "linear" as const,
                 }}
               ></motion.div>
               <p className="text-gray-600 text-xl">جاري معالجة طلبك...</p>

@@ -563,36 +563,11 @@ export default function Home() {
             إحدى مبادرات برنامج الشراكة الطلابية
           </p>
 
-          {/* CTA buttons — stack on mobile, side by side on sm+ */}
-          <div className="flex flex-col sm:flex-row items-center gap-3 w-full max-w-xs sm:max-w-none sm:w-auto">
-            <button className="hero-btn-primary w-full sm:w-auto px-8 sm:px-9 py-3 sm:py-3.5 rounded-2xl text-base sm:text-lg shadow-md">
-              انضم إلينا
-            </button>
-            <button className="hero-btn-secondary w-full sm:w-auto px-8 sm:px-9 py-3 sm:py-3.5 rounded-2xl text-base sm:text-lg">
-              تعرف علينا
-            </button>
-          </div>
+
         </div>
 
         {/* Scroll indicator — hidden on very small screens */}
-        <div className="relative z-10 pb-6 sm:pb-8 hidden sm:flex flex-col items-center gap-1.5 pointer-events-none">
-          <span className="text-white/30 text-xs tracking-widest select-none">
-            اكتشف المزيد
-          </span>
-          <svg
-            className="scroll-bounce w-5 h-5 text-white/35"
-            fill="none"
-            viewBox="0 0 20 20"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={1.5}
-              d="M10 4v12M5 11l5 5 5-5"
-            />
-          </svg>
-        </div>
+       
       </div>
 
       {/* ── Mission & Vision ─────────────────────────────────────────── */}

@@ -63,6 +63,9 @@
     "tailwindcss-animate": "^1.0.7",
     "typescript": "5.7.2"
   },
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "overrides": {
     "postcss": "$postcss",
     "prismjs": "^1.30.0"
